@@ -7,17 +7,23 @@ $accent-primary-dark: var(--acent-primary-dark, #162E64);
 $accent-secondary: var(--accent-secondary, #FF7C5C);
 
 
-$icon-size: var(--icon-size, 32px);
+$icon-size: var(--icon-size, 32);
 
 @mixin transition($elem){
   transition: $elem 200ms ease-in-out;
 }
 
+@mixin icon-route($iconName){
+  mask-image: url("./src/components/fontawesome-icon/assets/icons/iconfinder_"+$iconName+".svg");
+}
+
+
+:host(icon-size)
 
 .icon {
   display: inline-block;
-  width: $icon-size;
-  height: $icon-size;
+  width: $icon-size+"px";
+  height: $icon-size+"px";
   
   mask-size: cover;
   background: $dark-color;
@@ -30,7 +36,7 @@ $icon-size: var(--icon-size, 32px);
 .star {
   background: $lightgray-color;
   border: inset 1px solid $gray-color;
-  mask-image: url("./src/assets/icons/iconfinder_star.svg");
+  @include icon-route('star');
   @include transition(transform);
 
   &:hover{
@@ -45,5 +51,9 @@ $icon-size: var(--icon-size, 32px);
 }
 
 .more{
-  mask-image: url("./src/assets/icons/iconfinder_more.svg");
+  @include icon-route('more');
+}
+
+.info{
+  @include icon-route('info');
 }
