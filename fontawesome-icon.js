@@ -21,12 +21,16 @@ export class FontawesomeIcon extends LitElement {
 
       selected: {type: Boolean},
 
+      iconSize: {type: Number, attribute: 'icon-size'},
+
     };
   }
 
   constructor(){
       super();
       this.selected = false;
+
+      this.icon = "info"
   }
 
 
@@ -42,7 +46,6 @@ export class FontawesomeIcon extends LitElement {
 
   render(){
       return html`
-      
         ${this._getIcon()}
       `;
   }
