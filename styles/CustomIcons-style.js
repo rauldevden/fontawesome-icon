@@ -48,4 +48,9 @@ export default css`
   -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_info.svg");
           mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_info.svg");
 }
+
+.close {
+  -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_close.svg");
+          mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_close.svg");
+}
 `
