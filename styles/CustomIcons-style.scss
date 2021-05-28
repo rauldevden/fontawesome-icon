@@ -7,7 +7,7 @@ $accent-primary-dark: var(--acent-primary-dark, #162E64);
 $accent-secondary: var(--accent-secondary, #FF7C5C);
 
 
-$icon-size: var(--icon-size, 32);
+$icon-size: var(--icon-size, 32px);
 
 @mixin transition($elem){
   transition: $elem 200ms ease-in-out;
@@ -18,12 +18,11 @@ $icon-size: var(--icon-size, 32);
 }
 
 
-:host(icon-size)
 
 .icon {
   display: inline-block;
-  width: $icon-size+"px";
-  height: $icon-size+"px";
+  width: $icon-size;
+  height: $icon-size;
   
   mask-size: cover;
   background: $dark-color;
