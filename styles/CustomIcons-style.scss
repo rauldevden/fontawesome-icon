@@ -56,3 +56,7 @@ $icon-size: var(--icon-size, 32px);
 .info{
   @include icon-route('info');
 }
+
+.close{
+  @include icon-route('close');
+}
