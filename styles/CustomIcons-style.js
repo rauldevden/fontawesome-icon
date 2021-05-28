@@ -1,7 +1,6 @@
 import { LitElement, html, css } from 'lit-element';
 
 export default css`
-:host(icon-size)
 .icon {
   display: inline-block;
   width: var(--icon-size, 32)px;
@@ -11,7 +10,6 @@ export default css`
   background: var(--dark-color, #02010A);
 }
 
-:host(icon-size)
 .icon:hover {
   background-color: var(--accent-primary, #3482D5);
 }
