@@ -22,6 +22,8 @@ export class FontawesomeIcon extends LitElement {
       selected: {type: Boolean},
 
       iconSize: {type: Number, attribute: 'icon-size'},
+      
+      identifier: {type: String, attribute: 'icon-group'},
 
     };
   }
@@ -37,10 +39,21 @@ export class FontawesomeIcon extends LitElement {
   update(){
     super.update();
   }
+
+  iconClick(){
+    this.dispatchEvent(new CustomEvent("icon-click", {
+      bubbles: true,
+      composed: true,
+      detail: {id: this.identifier, icon: this.icon }
+    }));
+  }
   
   _getIcon(){
     return html `
-      <div class="icon ${this.icon} ${this.selected ? `selected` : ``}"  srcset="">
+      <div 
+        @click="${this.iconClick}"
+        class="icon ${this.icon} ${this.selected ? `selected` : ``}"  
+      ></div>
     `
   }
 
