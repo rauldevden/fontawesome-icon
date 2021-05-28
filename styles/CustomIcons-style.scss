@@ -61,7 +61,7 @@ $icon-size: var(--icon-size, 32px);
   @include icon-route('close');
 }
 .add{
-  @include icon-route('close');
+  @include icon-route('add');
 }
 .arrow-down{
   @include icon-route('arrow-down');
