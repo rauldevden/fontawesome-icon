@@ -14,7 +14,7 @@ $icon-size: var(--icon-size, 32);
 }
 
 @mixin icon-route($iconName){
-  mask-image: url("./src/components/fontawesome-icon/assets/icons/iconfinder_"+$iconName+".svg");
+  mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_"+$iconName+".svg");
 }
 
 

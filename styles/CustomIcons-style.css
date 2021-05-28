@@ -16,8 +16,8 @@
 .star {
   background: var(--light-color, #bcccce);
   border: inset 1px solid var(--light-color, #49585A);
-  -webkit-mask-image: url("./src/components/fontawesome-icon/assets/icons/iconfinder_star.svg");
-          mask-image: url("./src/components/fontawesome-icon/assets/icons/iconfinder_star.svg");
+  -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_star.svg");
+          mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_star.svg");
   -webkit-transition: -webkit-transform 200ms ease-in-out;
   transition: -webkit-transform 200ms ease-in-out;
   transition: transform 200ms ease-in-out;
@@ -39,12 +39,12 @@
 }
 
 .more {
-  -webkit-mask-image: url("./src/components/fontawesome-icon/assets/icons/iconfinder_more.svg");
-          mask-image: url("./src/components/fontawesome-icon/assets/icons/iconfinder_more.svg");
+  -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_more.svg");
+          mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_more.svg");
 }
 
 .info {
-  -webkit-mask-image: url("./src/components/fontawesome-icon/assets/icons/iconfinder_info.svg");
-          mask-image: url("./src/components/fontawesome-icon/assets/icons/iconfinder_info.svg");
+  -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_info.svg");
+          mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_info.svg");
 }
 /*# sourceMappingURL=CustomIcons-style.css.map */
