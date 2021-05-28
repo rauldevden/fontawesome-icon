@@ -3,8 +3,8 @@ import { LitElement, html, css } from 'lit-element';
 export default css`
 .icon {
   display: inline-block;
-  width: var(--icon-size, 32)px;
-  height: var(--icon-size, 32)px;
+  width: var(--icon-size, 32px);
+  height: var(--icon-size, 32px);
   -webkit-mask-size: cover;
           mask-size: cover;
   background: var(--dark-color, #02010A);
