@@ -7,11 +7,11 @@ export default css`
   height: var(--icon-size, 32px);
   -webkit-mask-size: cover;
           mask-size: cover;
-  background: var(--dark-color, #02010A);
+  background: var(--icon-color, var(--dark-color, #02010A));
 }
 
 .icon:hover {
-  background-color: var(--accent-primary, #3482D5);
+  background-color: var(--icon-color-hover, var(--accent-primary, #3482D5));
 }
 
 .star {

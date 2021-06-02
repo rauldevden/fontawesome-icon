@@ -25,10 +25,10 @@ $icon-size: var(--icon-size, 32px);
   height: $icon-size;
   
   mask-size: cover;
-  background: $dark-color;
+  background: var(--icon-color, $dark-color);
 
   &:hover{
-    background-color: $accent-primary;
+    background-color: var(--icon-color-hover, $accent-primary);
   }
 }
 
