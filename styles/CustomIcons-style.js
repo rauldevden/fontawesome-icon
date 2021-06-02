@@ -63,4 +63,9 @@ export default css`
   -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_arrow-down.svg");
           mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_arrow-down.svg");
 }
+
+.edit {
+  -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_edit.svg");
+          mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_edit.svg");
+}
 `
