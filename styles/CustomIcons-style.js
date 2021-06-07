@@ -54,7 +54,7 @@ export default css`
           mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_close.svg");
 }
 
-..add {
+.add {
   -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_add.svg");
           mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_add.svg");
 }
@@ -67,5 +67,20 @@ export default css`
 .edit {
   -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_edit.svg");
           mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_edit.svg");
+}
+
+.back {
+  -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_back.svg");
+          mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_back.svg");
+}
+
+.chat {
+  -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_chat.svg");
+          mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_chat.svg");
+}
+
+.questionmark {
+  -webkit-mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_questionmark.svg");
+          mask-image: url("./node_modules/fontawesome-icon/assets/icons/iconfinder_questionmark.svg");
 }
 `
