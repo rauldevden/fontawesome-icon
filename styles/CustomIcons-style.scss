@@ -69,3 +69,12 @@ $icon-size: var(--icon-size, 32px);
 .edit{
   @include icon-route('edit');
 }
+.back{
+  @include icon-route('back');
+}
+.chat{
+  @include icon-route('chat');
+}
+.questionmark{
+  @include icon-route('questionmark');
+}
